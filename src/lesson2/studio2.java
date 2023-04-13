@@ -10,7 +10,7 @@ public class studio2 {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter a string to count its characters:");
         String userString = input.nextLine();
-        char[] CharArray = userString.toCharArray();
+        char[] CharArray = userString.toCharArray(2);
         HashMap<Character, Integer> count = new HashMap<>();
         for (char letter : CharArray) {
 
